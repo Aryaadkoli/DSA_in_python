@@ -1,3 +1,3 @@
 # DSA-DAA-repo
 
-This contains all the projects that I did for Data structures and algorithms and Design and Analysis of Algorithms.
+This contains all the notes that I made for DSA in Python.
