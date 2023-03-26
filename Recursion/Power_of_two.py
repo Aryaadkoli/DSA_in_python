@@ -12,6 +12,6 @@ def powerOfTwo(n):
 print(powerOfTwo(5))
 
 """
-The output is as follows:
+The output is:
 32
 """
