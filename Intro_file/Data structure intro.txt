@@ -39,8 +39,8 @@ TYPES OF DATA STRUCTURES:
 		2. Non-linear: Elements are not arranged in sequential order. These are used to represent 
 				   a hierarchial relationship between data elements.
 				   They consist of the following:
-					-> Set
-					-> Dictionary
+					-> Set (built-in)
+					-> Dictionary (built-in)
 					-> Tree
 					-> Graph
 
