@@ -1,0 +1,61 @@
+DATA STRUCTRUE:
+- Data structures are different ways of organizing data on your computer, that can be used effectively.
+
+-------------------------------------------------------------------------------------------------------
+
+ALGORITHM:
+- Set of instuctions to perform a task.
+- What makes a good algorithm?
+	> Correctness
+	> Efficiency
+
+-------------------------------------------------------------------------------------------------------
+
+TYPES OF DATA STRUCTURES:
+- Primitive data structures:
+	> Basic data types that cannot be broken down into simpler data types.
+	> Have a fixed size and are usually smaller in size.
+	> Are presented in memory as simple values.
+	> Different Primitive data structures are:
+		1. Integer
+		2. Float
+		3. String
+		4. Boolean
+
+- Non primitive data structures:
+	> Complex data types that can be broken down into simpler data types.
+	> Larger in size and can grow or shrink dynamically.
+	> May consist of multiple primitive data types.
+	> Are represnted as pointers to other memory locations.
+	> Different Primitive data structures are:
+		1. Linear: Elements are arranged in sequential order. Order of elements is important.
+			     They consist of the following:
+					-> List (built-in)
+					-> Tuple (built-in)
+					-> Array
+					-> Linked list
+					-> Stack
+					-> Queue
+		2. Non-linear: Elements are not arranged in sequential order. These are used to represent 
+				   a hierarchial relationship between data elements.
+				   They consist of the following:
+					-> Set
+					-> Dictionary
+					-> Tree
+					-> Graph
+
+-------------------------------------------------------------------------------------------------------
+
+TYPES OF ALGORITHM:
+- Sorting: To store data in ascending or descending order.
+- Search: To find specific value in a data set.
+- Graph: To work with data that can be represented as a graph.
+- Dynamic Programming: To solve problems by breaking them down into smaller sub-problems.
+			     (Ex: Knapsack problem)
+- Divide and conquer: To solve problems by breaking them down into smaller sub-problems, solving 
+			    each sub-problem independently and then combining the results.(Ex: Merge sort)
+- Recursive: To solve the problems by breaking them down into smaller sub-problems that are 
+	       similar in nature.
+
+
+
