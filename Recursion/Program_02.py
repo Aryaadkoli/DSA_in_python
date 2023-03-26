@@ -1,3 +1,4 @@
+# Power of two
 # Python program to  find and print powers of 2 upto any particular number 'n'.
 # Example: 2^5 = 32.
 
