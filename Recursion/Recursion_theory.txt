@@ -1,0 +1,59 @@
+RECURSION:
+- A way of solving a problem by having a function call itself.
+- Each step in the recursion algorithm is stored in a stack.
+- Properties of recursion:
+	> Performing the same operation multiple times with different inputs.
+	> In every step we try smaller inputs to make problem smaller.
+	> Base condition is needed to stop the recursion, otherwise infinite loop will occur.
+- Why do we need recursion?
+	> Recursive thinking is really important in programming and it helps you break down big problems 
+	  into smaller ones and easier to use.
+		-> When to choose recursion?
+			# If you can divide the problem into similar sub problems.
+			# If the question starts as follows, use recursion:
+				1. Design an algorithm to compute nth...
+				2. Write code to list n...
+				3. Implement a method to compute all...
+	> The prominent usage of recursion in data structures like trees and graphs.
+	> It is used in many algorithms (divide and conquer, greedy and dynamic programming).
+- How recursion works?
+	> We need to take two conditions into account:
+		1. A method to call itself.
+		2. An exit condition to prevent infinte loop.
+	> General syntax for recursion:
+	  					 def recursionMethod(parameters):
+							if exit from condition satisfied:
+								return some value
+							else:
+								recursionMethod(modified parameters)
+- Recursion vs Iterative solution:
+	> All recursive algorithms can be implemented iteratively, although it may become difficult to 
+	  do so as the complexity of the problem statement and algorithm increases.
+	> A conditional statement decides the termination of recursion, while a control variable value 
+	  decides the termination of iteration statements.
+	> In recursive function, infinite recursion can lead to system crash whereas in iterative 
+	  function, infinite iteration consumes CPU cycles.
+	> Recursion repeatedly invokes the mechanism consequently over head of method calls. This can 
+	  be expensive in both processor time and memory space. While iteration does not. Recursive 
+	  algorithm can be very space inefficient.
+	> Recursion algorithm is easy to code but it is neither time efficient nor space efficient. On 
+        the other hand, iterative algorithm is both time and space efficient but it isn't easy to code.
+- When to use/avoid recursion?
+	> When to use it?
+		-> When we can breakdown a problem into similar subproblems.
+		-> When we are fine with extra overhead (both time and space) that comes with it.
+		-> When we need a quick working solution instead of an eefficient one.
+		-> When we have to traverse a tree.
+		-> When we use memoization in recursion. (Advanced topic...google it)
+	> When to avoid it?
+		-> If time and space complexity matters for us.
+		-> Recursion uses more memory. If we use embeded memory. For example, an application 
+		   that takes more memory in the phone is not efficient.
+		-> Recursion can be slow.
+- How to write a recursion in 3 steps:
+	> Step 1: Recursive case - the flow. When we create a recursive function, first identify 
+		    the recursive case.
+	> Step 2: Base case - the stopping criterion. The base case which stops the infinite 
+		    loop is required.
+	> Step 3: Unintentional case - the constraint. All other cases such as invalid input or any 
+		other kind of anamoly case should be taken care of.
