@@ -51,11 +51,16 @@ TYPES OF ALGORITHM:
 - Search: To find specific value in a data set.
 - Graph: To work with data that can be represented as a graph.
 - Dynamic Programming: To solve problems by breaking them down into smaller sub-problems.
-			     (Ex: Knapsack problem)
+		       (Ex: Knapsack problem)
 - Divide and conquer: To solve problems by breaking them down into smaller sub-problems, solving 
-			    each sub-problem independently and then combining the results.(Ex: Merge sort)
+		      each sub-problem independently and then combining the results.(Ex: Merge sort)
 - Recursive: To solve the problems by breaking them down into smaller sub-problems that are 
-	       similar in nature.
+	     similar in nature.
+- Greedy algorithm: We take the local optimal solution at each step, hoping to end up with a global 
+		    optimum solution at the end.
+- Brute force algorithm: It tries all the possibilites until a satisfactory solution is found.
+- Randomized algorithm: Uses a random number at least once during the computation to make a decision.
+			(Ex: Quick sort)
 
 
 
